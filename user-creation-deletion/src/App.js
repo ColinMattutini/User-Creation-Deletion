@@ -1,6 +1,8 @@
 import React, {useState} from 'react';
 import Users from './Components/Users.js';
 import NewUser from './Components/NewUser.js';
+import UserList from './Components/UserList.js';
+
 
 
 const App = () => {
@@ -16,8 +18,9 @@ const App = () => {
 
   return (
     <div>
-      {/* <Users/> */}
       <NewUser onAddUser={addUserHandler}/>
+      <Users users={user}/>
+      
     </div>
   );
 }

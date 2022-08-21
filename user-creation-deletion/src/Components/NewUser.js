@@ -10,7 +10,7 @@ const NewUser = (props) => {
     const saveUserDataHandler = (enteredUserData) => {
         const userData = {
             ...enteredUserData,
-            id: Math.random().toString()
+            // id: Math.random().toString()
         };
         props.onAddUser(userData);
         setIsEditing(false);

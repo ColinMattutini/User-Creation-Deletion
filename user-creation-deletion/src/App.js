@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div>
-      <Users/>
+      {/* <Users/> */}
       <NewUser onAddUser={addUserHandler}/>
     </div>
   );

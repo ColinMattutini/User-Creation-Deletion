@@ -1,13 +1,13 @@
 import React from 'react';
 import './Users.css';
 import Card from './UI/Card.js';
-import NewUserForm from './NewUserForm';
+import NewUser from './NewUser';
 
 const Users = (props) => {
 
     return(
         <Card>
-            <NewUserForm/>
+            <NewUser/>
         </Card>
 
     )

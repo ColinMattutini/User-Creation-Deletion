@@ -26,8 +26,8 @@ const NewUser = (props) => {
 
     return(
         <div className='new-user'>
-            {!isEditing && <button onClick={startEditingHandler}>Add New User</button>}
-            {isEditing && <NewUserForm onSaveUserData={saveUserDataHandler} onCancel={stopEditingHandler}/>}
+            {/* {!isEditing && <button onClick={startEditingHandler}>Add New User</button>} */}
+            {<NewUserForm onSaveUserData={saveUserDataHandler} onCancel={stopEditingHandler}/>}
 
         </div>
     );

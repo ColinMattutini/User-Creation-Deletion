@@ -5,8 +5,6 @@ import NewUserForm from './NewUserForm';
 
 const Users = (props) => {
 
-
-
     return(
         <Card>
             <NewUserForm/>

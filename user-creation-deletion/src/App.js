@@ -1,11 +1,23 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Users from './Components/Users.js';
+import NewUser from './Components/NewUser.js';
 
 
-function App() {
+const App = () => {
+
+  const [user, setUser] = useState('');
+  
+  const addUserHandler = (user) => {
+    setUser(prevUser => {
+      return [user, ...prevUser];
+    });
+  }
+
+
   return (
     <div>
       <Users/>
+      <NewUser onAddUser={addUserHandler}/>
     </div>
   );
 }

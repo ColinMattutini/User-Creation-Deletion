@@ -1,0 +1,24 @@
+.userlist {
+        background-color: #3700ff;
+        padding: 1rem;
+        margin: 2rem auto;
+        width: 40rem;
+        max-width: 95%;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.userlist-control {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.userlist_control h2{
+    color: black;
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}

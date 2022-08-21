@@ -1,0 +1,26 @@
+.new-user__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    text-align: left;
+}
+
+.new-user__control label{
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.new-user__control input{
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px;
+    width: 35rem;
+    max-width: 100%;
+}
+
+.new-expense__actions {
+    text-align: right;
+}

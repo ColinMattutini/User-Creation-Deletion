@@ -1,0 +1,46 @@
+.users {
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 40rem;
+  }
+  
+  .users ul {
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  .users li {
+    border: 1px solid #ccc;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+  }
+
+/* .userlist {
+        background-color: #3700ff;
+        padding: 1rem;
+        margin: 1rem auto;
+        width: 40rem;
+        max-width: 95%;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.userlist-control {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-bottom: .25rem;
+}
+
+.userlist_control h2{
+    color: black;
+    font-weight: bold;
+    margin-bottom: .25rem;
+    display: block;
+}
+
+.userlist_control label{
+    display: block;
+    text-align: right;
+} */

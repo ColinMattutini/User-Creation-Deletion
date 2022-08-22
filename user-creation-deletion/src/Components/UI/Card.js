@@ -3,8 +3,7 @@ import React from 'react';
 
 
 const Card = (props) => {
-    const classes = 'card ' + props.className;
-    return <div classname={classes.card}>{props.children}</div>
+    return <div className={`${classes.card} ${props.className}`}>{props.children}</div>
 }
 
 export default Card;
